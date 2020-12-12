@@ -12,6 +12,7 @@ master.minsize(width=200, height=100)
 master.config(padx=30, pady=30)
 
 mile_entry = tk.Entry(master, width=15, justify="center")
+mile_entry.insert(tk.END, string="0")
 mile_entry.focus()
 mile_entry.grid(row=0, column=1)
 
